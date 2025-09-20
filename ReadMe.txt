@@ -1,5 +1,7 @@
 About:
-- This project is an adaptation of the Morgan Stanley's Momentum Index construction methodology for US markets based on the white paper published in Aug 2021 to indian markets. It applies the methodology to Nifty50 which is a free-float market-cap weighted index for 50 largest and most liquid Indian stocks. The resultant index is referred to as Nifty50 Momentum Index. The white paper is present in this repository as MSCI_Momentum_Indexes_Methodology_Aug2021.pdf file
+- This project is an adaptation of the Morgan Stanley's Momentum Index construction methodology for US markets based on the white paper published in Aug 2021 to indian markets. 
+- It applies the methodology to Nifty50 which is a free-float market-cap weighted index for 50 largest and most liquid Indian stocks. The resultant index is referred to as Nifty50 Momentum Index. 
+- The white paper is present in this repository as MSCI_Momentum_Indexes_Methodology_Aug2021.pdf file
 
 - Nifty50 Index Data: The Nifty50 Momentum Index composition and constituent weights are obtained from the monthwise PDFs available on https://www.niftyindices.com/reports/historical-data . These PDF files are manually downloaded for period from Jan 2023 till Aug 2025 and saved in the accompanying folder at \indexData. The PDF files are parsed in the code to  fetch the monthwise constituents and their weights
 
